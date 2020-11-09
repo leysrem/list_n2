@@ -49,7 +49,7 @@ public class Tp2 {
 //        "Les utilisateurs dont le nom et le prénom contienent exactement 5 caractères", nbUsersFLName5));
 
     // 4 : Le nombre d'utilisateur dont le full name contient entre 13 et 16 caractères
-   // long nbUsersFullname1316 = users.stream().filter(x -> x.getFullName().length() < 13 && x.getFullName().length() > 16).count();
+   // long nbUsersFullname1316 = users.stream().filter(x -> x.getFullName().length() > 13 && x.getFullName().length() < 16).count();
   //  System.out.println(String.format("%s %d", "Les utilisateurs dont le full name contient entre 13 et 16 caractères",
   //      nbUsersFullname1316));
 
